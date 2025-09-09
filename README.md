@@ -3,7 +3,7 @@ Let's start off our exploration of Java with a classic programming challenge, Fi
 
 But first, let's get you your own copy of this codebase to work with.
 
-(Editing for Task 3.4)
+Editing for Task 3.4
 
 ## Task 0 Forking a public repository on GitHub
 
