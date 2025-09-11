@@ -2,16 +2,20 @@ package lab1;
 
 public class Multiples {
     public static void main(String[] args) {
-        int count = 0;
+        int n = 0, a = 0, b = 0;
+        System.out.println(multiples(n, a, b));
 
-        for (int i = 1; i < 1000; i++) {
+    }
 
-            if (i % 3 == 0 || i % 5 == 0) {
-                count++;
+    static int multiples(int n, int a, int b) {
+        int num = 0;
+
+        for (int i = 1; i < n; i++) {
+
+            if (i % a == 0 || i % b == 0) {
+                num++;
             }
         }
-
-        System.out.println(count);
-
+        return num;
     }
 }
